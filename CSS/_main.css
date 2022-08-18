@@ -1,0 +1,131 @@
+/* COMPARTIDOS */
+.width-section{
+    width: 95%;
+}
+
+.ul-li li:not(li:last-child){
+margin-bottom: 1rem;
+padding-bottom: 1rem;
+border-bottom: 1px solid rgb(199, 194, 194);
+}
+
+/*SECCION ACERCA DE...*/
+
+.acercade{
+    border-radius: 0px 0px 15px 15px;
+}
+#acercade ul li {
+    margin-bottom: 5PX;
+}
+#acercade ul li a {
+    text-align: center;
+    align-items: center;
+}
+
+
+.btn-perfil{
+    border-radius: 50%;
+    margin-top: -90px;
+    inline-size: 20%;
+    border:  solid 4px white;
+    width: 20%;
+    padding: 0px;
+    min-width: 180px;
+}
+.btn-perfil img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.acercade-body-left a {
+    font-weight: 600;
+    color: var(--color-texto-principal);
+}
+
+.acercade-body-left a:hover {
+    text-decoration: underline;
+}
+.acercade-body-right a{
+    color:var(--color-grey-1);
+    font-weight: 600;
+}
+.acercade-body-right a:hover {
+    color: var(--color-texto-principal);
+    text-decoration: underline;
+}
+
+.acercade-footer button {
+    border-radius: 20px;
+    padding:5px 15px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    margin-top:10px;
+}
+.acercade-footer button:nth-child(1){
+    background-color: var(--color-texto-principal);
+    color: white;
+    font-weight: 600;
+    border:none;
+    transition: background-color 0.2s;
+}
+.acercade-footer button:nth-child(1):hover{
+    background-color: #094b8d;
+}
+
+.acercade-footer button:nth-child(2){
+    border-color:var(--color-texto-principal);  
+    color: var(--color-texto-principal);
+    background-color: white;
+    font-weight: 600;
+    transition: background-color 0.2s, border 0.2s;
+}
+.acercade-footer button:nth-child(2):hover{
+    background-color: #0a66c21b;
+    border:solid 3px;
+}
+.acercade-footer button:nth-child(3){
+
+    border-color: grey;
+    background-color: white;
+    color:grey;
+    font-weight: 600;
+    transition: background-color 0.2s, border 0.2s;
+}
+.acercade-footer button:nth-child(3):hover{
+    background-color: rgba(128, 128, 128, 0.16);
+    border:solid 3px;
+}
+
+/*  SECCION HARD SOFT SKILLS  */
+
+.ul-li-skills li:not(li:last-child){
+    margin-bottom: 1rem;
+    }
+
+
+/* SECCION PROYECTOS */
+
+.card-proyectos{
+    display: flex;
+    margin:auto;
+    justify-content: space-around ;
+}
+.card-hijo {
+    margin:auto;
+    max-width: 25%;
+}
+
+.card-hijo img{
+    
+    width: 100%;
+    object-fit : contain;
+}
+.card-body-link{
+
+    color:rgb(91, 90, 90);
+}
+
+.card-body-link:hover{
+    text-decoration: underline;
+
+}

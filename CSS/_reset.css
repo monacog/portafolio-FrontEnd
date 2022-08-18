@@ -1,0 +1,128 @@
+/* VARIABLES */
+:root{
+--color-texto-principal:#0a66c2;
+--color-grey-1:#232323;
+}
+
+/* RESET*/
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(224, 220, 220);
+ }
+ *{
+    list-style: none;
+    margin:0px;
+    --bs-gutter-x:0px !important;
+ }
+ 
+ a{
+     text-decoration :none;
+ }
+ 
+ .centrar {
+    max-inline-size: 80%;
+    margin-inline: auto;
+ }
+ 
+ section{
+    background-color: white;
+    position: relative;
+ }
+ 
+ .border-top{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+ }
+ .border-bottom{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+ }
+ 
+ .padding-left-right{
+    padding: 0px 3% 0px;
+ }
+ 
+ .padding-top-bottom{
+    padding-top: 1.2rem;
+    padding-bottom: 1.2rem;
+ }
+ 
+ .margen-top{
+    margin-top: 15px;
+ }
+ .margen-bottom{
+    margin-bottom: 15px;
+ }
+
+ p {
+    margin-bottom: 3px;
+ }
+
+ button{
+    border:solid 2px;
+ }
+
+ i{
+    color:grey;
+ }
+
+  /*ESTILOS COMPARTIDOS */
+
+.cont-img-empresa{
+    width:56px;
+}
+
+.img-empresa{
+    width:48px;
+    height:48px;
+}
+
+.img-empresa-small{
+    width:32px;
+    height:32px;
+    margin-right: 8px;
+}
+
+.btn-edit{
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 0px;
+    border:0px;
+
+}
+.btn-mas{
+    border-radius: 50%;
+    background-color: transparent;
+    padding: 0px;
+    border:0px;
+}
+.acercade-head {
+    align-items: center;
+} 
+
+.btn-edit{
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    align-items: center;
+}
+.btn-edit:hover{
+    background-color: rgba(128, 128, 128, 0.192);
+}
+
+.t1{
+    font-size:1rem;
+    font-weight: 700;
+    margin:0;
+}
+
+.t2{
+    font-size:14px;
+    margin:0;
+}
+
+.t3{
+    font-size:14px;
+    color:rgba(0,0,0,0.6);
+    margin:0;
+}

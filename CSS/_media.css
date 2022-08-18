@@ -1,0 +1,45 @@
+
+@media (max-width:800px){
+    .acercade-body-right{
+        display: none;
+    }
+    .card-proyectos{
+        display:block;
+    }
+    
+    .card-hijo{
+        max-width: 95%;
+        align-items: center;
+    }
+
+}
+
+@media (max-width:450px){
+
+    .header-top {
+        display: block;
+        align-items: center;
+    }
+    .header-top-right ul{
+        flex-direction: column;
+    }
+    .menuon {
+        display: none;
+    }
+
+    .menuok{
+        display:block;
+    }
+    .centrar {
+        max-inline-size: 95%;
+    }
+
+}
+
+@media (max-width:420px){
+
+    .btn-perfil{
+        margin-top:-50px;
+        min-width:120px;
+    }
+}
